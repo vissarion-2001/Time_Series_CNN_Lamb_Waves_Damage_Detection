@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import numpy as np
 
-def getting_time_Series_Data(main_path = "C:\\Users\\velis\\Diploma_Thesis Detection\\data_ROM", num_sensor = 10, number_sol=100):
+def getting_time_Series_Data(main_path = "C:\\Users\\velis\\Lamb_Waves_Detection_CNN\\Time_Series_CNN_Lamb_Waves_Damage_Detection\\data_ROM", num_sensor = 10, number_sol=100):
 
     len_of_ts = 1401
     matrix = np.zeros((num_sensor*(num_sensor-1)*number_sol,len_of_ts), dtype="float64")
